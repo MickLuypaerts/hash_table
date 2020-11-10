@@ -59,7 +59,7 @@ void print_hash_table(hash_table_t* hash_table);
  * 
  * @return   true if found false if not found
  */ 
-bool find_node_in_hash_table(hash_table_t* hash_table, char* value, int* index);
+bool find_node_in_hash_table(hash_table_t* hash_table, char* value);
 
 /**
  * @brief    adds a node to the hash table
